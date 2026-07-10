@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Idris Umar Ahmad — ICT Professional & Founder, Bibi Tech Compatibility</title>
+<meta name="description" content="Software developer, web developer, graphic designer, ICT trainer and computer technician based in Kano, Nigeria. Founder of Bibi Tech Compatibility.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="./IMAGES/logo.png">
+<link rel="stylesheet" href="./INDEX-STYLE.CSS">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <a href="index.html" class="brand">
+      <img src="./IMAGES/logo.png" alt="Bibi Tech Compatibility logo" class="brand-logo">
+      <span>IDRIS UMAR AHMAD<small>BIBI TECH COMPATIBILITY</small></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav>
+      <ul id="navList">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="expertise.html">Expertise</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="why.html">Why Me</a></li>
+        <li><a href="founder.html">Bibi Tech</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+  <section class="hero" style="border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Kano State, Nigeria</span>
+          <h1>Idris Umar Ahmad — <span>ICT Professional</span> &amp; Technology Builder</h1>
+          <p class="hero-role">
+            <b>Software Developer · Web Developer · Graphic Designer · ICT Trainer · Computer Technician</b>
+          </p>
+          <p class="hero-lead">
+            I design and build the software, websites, visual identity and training that individuals, schools and businesses need to run on technology — end to end, from the database to the classroom.
+          </p>
+          <div class="hero-cta">
+            <a href="projects.html" class="btn btn-primary">View the work →</a>
+            <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="./IMAGES/bb.png" alt="Portrait of Idris Umar Ahmad">
+            <div class="photo-overlay">
+              <span class="photo-name">Idris Umar Ahmad</span>
+              <span class="photo-role">Founder, Bibi Tech Compatibility</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- schematic diagram desktop -->
+      <div class="schematic">
+        <svg viewBox="0 0 640 560" role="img" aria-label="Diagram of six practice areas connected to Idris's hub">
+          <!-- traces -->
+          <line class="trace" x1="320" y1="280" x2="320" y2="90"/>
+          <line class="trace" x1="320" y1="280" x2="520" y2="170"/>
+          <line class="trace" x1="320" y1="280" x2="520" y2="390"/>
+          <line class="trace" x1="320" y1="280" x2="320" y2="470"/>
+          <line class="trace" x1="320" y1="280" x2="120" y2="390"/>
+          <line class="trace" x1="320" y1="280" x2="120" y2="170"/>
+
+          <!-- hub -->
+          <circle class="hub-circle" cx="320" cy="280" r="54"/>
+          <text class="hub-text" x="320" y="277" text-anchor="middle">IDRIS</text>
+          <text class="hub-sub" x="320" y="293" text-anchor="middle">BIBI TECH</text>
+
+          <!-- nodes -->
+          <g class="node" tabindex="0">
+            <circle class="node-circle" cx="320" cy="90" r="40"/>
+            <text class="node-label" x="320" y="86" text-anchor="middle">SOFTWARE</text>
+            <text class="node-label" x="320" y="100" text-anchor="middle">DEV</text>
+          </g>
+          <g class="node" tabindex="0">
+            <circle class="node-circle" cx="520" cy="170" r="40"/>
+            <text class="node-label" x="520" y="166" text-anchor="middle">WEB</text>
+            <text class="node-label" x="520" y="180" text-anchor="middle">DEV</text>
+          </g>
+          <g class="node" tabindex="0">
+            <circle class="node-circle" cx="520" cy="390" r="40"/>
+            <text class="node-label" x="520" y="386" text-anchor="middle">GRAPHIC</text>
+            <text class="node-label" x="520" y="400" text-anchor="middle">DESIGN</text>
+          </g>
+          <g class="node" tabindex="0">
+            <circle class="node-circle" cx="320" cy="470" r="40"/>
+            <text class="node-label" x="320" y="466" text-anchor="middle">HARDWARE</text>
+            <text class="node-label" x="320" y="480" text-anchor="middle">SUPPORT</text>
+          </g>
+          <g class="node" tabindex="0">
+            <circle class="node-circle" cx="120" cy="390" r="40"/>
+            <text class="node-label" x="120" y="386" text-anchor="middle">ICT</text>
+            <text class="node-label" x="120" y="400" text-anchor="middle">TRAINING</text>
+          </g>
+          <g class="node" tabindex="0">
+            <circle class="node-circle" cx="120" cy="170" r="40"/>
+            <text class="node-label" x="120" y="166" text-anchor="middle">BUSINESS</text>
+            <text class="node-label" x="120" y="180" text-anchor="middle">SERVICES</text>
+          </g>
+        </svg>
+      </div>
+
+      <!-- mobile fallback list -->
+      <div class="schematic-mobile">
+        <ul>
+          <li>Software Development</li>
+          <li>Web Development</li>
+          <li>Graphic Design</li>
+          <li>Hardware Support</li>
+          <li>ICT Training</li>
+          <li>Business Services</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS  -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Software Development</span><span class="sep">✦</span>
+      <span>Web Development</span><span class="sep">✦</span>
+      <span>Graphic Design</span><span class="sep">✦</span>
+      <span>ICT Training</span><span class="sep">✦</span>
+      <span>Computer Repairs</span><span class="sep">✦</span>
+      <span>Java &amp; C++</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>Database Applications</span><span class="sep">✦</span>
+      <span>Software Development</span><span class="sep">✦</span>
+      <span>Web Development</span><span class="sep">✦</span>
+      <span>Graphic Design</span><span class="sep">✦</span>
+      <span>ICT Training</span><span class="sep">✦</span>
+      <span>Computer Repairs</span><span class="sep">✦</span>
+      <span>Java &amp; C++</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>Database Applications</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  
+  <section id="explore">
+    <div class="wrap reveal">
+      <div class="sec-head">
+        <span class="sec-tag">Explore</span>
+        <h2>Get to know the work</h2>
+        <p>Each section now has its own page — pick where you'd like to start.</p>
+      </div>
+      <div class="proj-grid">
+        <a href="about.html" class="proj-card" style="display:block;">
+          <span class="proj-index">01</span>
+          <h3>About</h3>
+          <p>A practical problem-solver for technology, end to end.</p>
+        </a>
+        <a href="expertise.html" class="proj-card" style="display:block;">
+          <span class="proj-index">02</span>
+          <h3>Expertise</h3>
+          <p>Seven practice areas, one workflow.</p>
+        </a>
+        <a href="projects.html" class="proj-card" style="display:block;">
+          <span class="proj-index">03</span>
+          <h3>Projects</h3>
+          <p>A cross-section of selected work.</p>
+        </a>
+        <a href="pricing.html" class="proj-card" style="display:block;">
+          <span class="proj-index">04</span>
+          <h3>Pricing</h3>
+          <p>Build your own quote and pay securely online.</p>
+        </a>
+        <a href="why.html" class="proj-card" style="display:block;">
+          <span class="proj-index">05</span>
+          <h3>Why Me</h3>
+          <p>A quick read on how I approach every project.</p>
+        </a>
+        <a href="founder.html" class="proj-card" style="display:block;">
+          <span class="proj-index">06</span>
+          <h3>Bibi Tech</h3>
+          <p>Education and the studio behind the work.</p>
+        </a>
+        <a href="contact.html" class="proj-card" style="display:block;">
+          <span class="proj-index">07</span>
+          <h3>Contact</h3>
+          <p>Tell me about your project.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <img src="./IMAGES/logo.png" alt="Bibi Tech Compatibility logo" style="height:36px;width:auto;margin:0 auto 14px;opacity:0.85;">
+  <p>© <span id="year"></span> Idris Umar Ahmad · Bibi Tech Compatibility · Kano State, Nigeria</p>
+</footer>
+
+
+
+<script src="https://js.paystack.co/v1/inline.js"></script>
+<script>
+// mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navList = document.getElementById('navList');
+  navToggle.addEventListener('click', () => {
+    const open = navList.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', open);
+  });
+  navList.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navList.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', false);
+  }));
+
+  // tabs
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const tabPanels = document.querySelectorAll('.tab-panel');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+      tabPanels.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected','true');
+      document.querySelector(`.tab-panel[data-panel="${btn.dataset.tab}"]`).classList.add('active');
+    });
+  });
+
+  // scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+
+  // footer year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // contact form submission (via FormSubmit AJAX endpoint)
+  const contactForm = document.getElementById('contactForm');
+  const formStatus = document.getElementById('formStatus');
+  const contactSubmit = document.getElementById('contactSubmit');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      formStatus.textContent = '';
+      formStatus.classList.remove('success', 'error');
+      contactSubmit.disabled = true;
+      contactSubmit.textContent = 'Sending...';
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: new FormData(contactForm)
+        });
+
+        if (response.ok) {
+          formStatus.textContent = 'Message sent — thank you. I will reply by email soon.';
+          formStatus.classList.add('success');
+          contactForm.reset();
+        } else {
+          throw new Error('Request failed');
+        }
+      } catch (err) {
+        formStatus.textContent = 'Something went wrong. Please email bibitechcompatibility@gmail.com directly.';
+        formStatus.classList.add('error');
+      } finally {
+        contactSubmit.disabled = false;
+        contactSubmit.textContent = 'Send message →';
+      }
+    });
+  }
+
+  // pricing calculator + Paystack checkout
+  const PAYSTACK_PUBLIC_KEY = 'pk_test_REPLACE_WITH_YOUR_PAYSTACK_PUBLIC_KEY';
+
+  const serviceChecks = document.querySelectorAll('.service-check');
+  const summaryList = document.getElementById('summaryList');
+  const totalAmountEl = document.getElementById('totalAmount');
+  const payButton = document.getElementById('payButton');
+  const payerNameInput = document.getElementById('payerName');
+  const payerEmailInput = document.getElementById('payerEmail');
+  const paymentStatus = document.getElementById('paymentStatus');
+
+  function formatNaira(amount) {
+    return '₦' + amount.toLocaleString('en-NG');
+  }
+
+  function updateQuote() {
+    const selected = Array.from(serviceChecks).filter(c => c.checked);
+    const total = selected.reduce((sum, c) => sum + Number(c.dataset.price), 0);
+
+    if (selected.length === 0) {
+      summaryList.innerHTML = '<li class="summary-empty">No services selected yet.</li>';
+      payButton.disabled = true;
+      payButton.textContent = 'Select a service to continue';
+    } else {
+      summaryList.innerHTML = selected.map(c =>
+        `<li><span>${c.dataset.name}</span><span>${formatNaira(Number(c.dataset.price))}</span></li>`
+      ).join('');
+      payButton.disabled = false;
+      payButton.textContent = `Pay ${formatNaira(total)} →`;
+    }
+
+    totalAmountEl.textContent = formatNaira(total);
+    return { selected, total };
+  }
+
+  if (summaryList) {
+    serviceChecks.forEach(c => c.addEventListener('change', updateQuote));
+    updateQuote();
+  }
+
+  if (payButton) {
+    payButton.addEventListener('click', () => {
+      const { selected, total } = updateQuote();
+      paymentStatus.textContent = '';
+      paymentStatus.classList.remove('success', 'error');
+
+      if (selected.length === 0) return;
+
+      const name = payerNameInput.value.trim();
+      const email = payerEmailInput.value.trim();
+
+      if (!name) {
+        paymentStatus.textContent = 'Please enter your full name.';
+        paymentStatus.classList.add('error');
+        payerNameInput.focus();
+        return;
+      }
+      if (!email || !email.includes('@')) {
+        paymentStatus.textContent = 'Please enter a valid email address.';
+        paymentStatus.classList.add('error');
+        payerEmailInput.focus();
+        return;
+      }
+      if (typeof PaystackPop === 'undefined') {
+        paymentStatus.textContent = 'Payment system failed to load. Please check your connection and try again.';
+        paymentStatus.classList.add('error');
+        return;
+      }
+
+      const serviceNames = selected.map(c => c.dataset.name).join(', ');
+      const reference = 'BTC-' + Date.now() + '-' + Math.floor(Math.random() * 100000);
+
+      const handler = PaystackPop.setup({
+        key: PAYSTACK_PUBLIC_KEY,
+        email: email,
+        amount: total * 100, // kobo
+        currency: 'NGN',
+        ref: reference,
+        metadata: {
+          custom_fields: [
+            { display_name: 'Full Name', variable_name: 'full_name', value: name },
+            { display_name: 'Services', variable_name: 'services', value: serviceNames }
+          ]
+        },
+        callback: function(response) {
+          paymentStatus.textContent = 'Payment successful — reference ' + response.reference + '. Thank you! I will reach out by email to get started.';
+          paymentStatus.classList.add('success');
+        },
+        onClose: function() {
+          paymentStatus.textContent = 'Payment window closed. No charge was made.';
+        }
+      });
+
+      handler.openIframe();
+    });
+  }
+</script>
+
+
+</body>
+</html>
