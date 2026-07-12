@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me — Idris Umar Ahmad | Bibi Tech Compatibility</title>
+    <meta
+      name="description"
+      content="Who I am, and what I'm working to build through technology. Idris Umar Ahmad, Founder of Bibi Tech Compatibility, Kano, Nigeria."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./IMAGES/logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="brand">
+          <img
+            src="./IMAGES/logo.png"
+            alt="Bibi Tech Compatibility logo"
+            class="brand-logo"
+          />
+          <span>IDRIS UMAR AHMAD<small>BIBI TECH COMPATIBILITY</small></span>
+        </a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav>
+          <ul id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="expertise.html">Expertise</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="why.html">Why Me</a></li>
+            <li><a href="founder.html">Bibi Tech</a></li>
+            <li><a href="contact.html" class="nav-cta">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section
+        class="page-hero"
+        style="padding: 64px 0 40px; border-bottom: 1px solid var(--line)"
+      >
+        <div class="wrap">
+          <span class="eyebrow">Profile</span>
+          <h1
+            style="
+              font-size: clamp(2rem, 5vw, 3.2rem);
+              font-weight: 700;
+              line-height: 1.05;
+              letter-spacing: -0.01em;
+              max-width: 20ch;
+            "
+          >
+            About Me
+          </h1>
+          <p
+            style="
+              margin-top: 18px;
+              font-size: 1.05rem;
+              color: var(--text-muted);
+              max-width: 56ch;
+            "
+          >
+            Who I am, and what I'm working to build through technology.
+          </p>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="wrap reveal">
+          <div class="sec-head">
+            <span class="sec-tag">Profile</span>
+            <h2>A practical problem-solver for technology, end to end</h2>
+          </div>
+          <div class="about-grid">
+            <div>
+              <p>
+                I am <b>Idris Umar Ahmad</b>, a passionate ICT professional
+                holding a <b>Diploma in Computer Science</b>, with hands-on
+                experience across software development, web development, graphic
+                design, computer hardware, digital solutions and technology
+                education.
+              </p>
+              <p>
+                As the founder of <b>Bibi Tech Compatibility</b>, I help
+                individuals, schools, organizations and businesses put
+                technology to work — improving productivity, learning and
+                business growth through reliable, well-built digital solutions.
+              </p>
+              <p>
+                My goal is straightforward: deliver innovative, high-quality
+                digital work while empowering the people around me through
+                practical ICT training.
+              </p>
+            </div>
+            <div class="stat-panel">
+              <span class="mission-label">Mission</span>
+              <blockquote>
+                "To empower individuals and organizations through innovative
+                technology solutions, quality education, and professional
+                digital services."
+              </blockquote>
+              <div class="loc">
+                <span>Founder, Bibi Tech Compatibility</span>
+                <span>Kano State, NG</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img
+        src="./IMAGES/logo.png"
+        alt="Bibi Tech Compatibility logo"
+        style="height: 36px; width: auto; margin: 0 auto 14px; opacity: 0.85"
+      />
+      <p>
+        © <span id="year"></span> Idris Umar Ahmad · Bibi Tech Compatibility ·
+        Kano State, Nigeria
+      </p>
+    </footer>
+  </body>
+</html>
