@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" href="./IMAGES/logo.png" />
+    <link rel="stylesheet" href="./STYLE.CSS" />
   </head>
   <body>
     <header>
@@ -125,6 +126,32 @@
       </section>
     </main>
 
+    <section class="tutoring" >
+      <div class="sec-head" >
+        <span class="sec-tag">Tech Tutor</span>
+        <h2>Empowering Beginners to Build Real Tech Skills</h2>
+      </div>
+      <div class="cov">
+            <div class="left-part">
+                    <p>
+                          Master technology through a teaching approach that transforms complex
+                    concepts into simple, <strong> practical lessons</strong>. Every topic is carefully
+                    structured to help you build strong foundations, develop real
+                    problem-solving skills, and gain the confidence to create real-world
+                    solutions. <br>
+                    Watch the introduction video below and experience a smarter
+                    way to learn tech.</p>
+            </div>
+            <div class="right-part">
+              <video class="video-ratio" src="./VID/POWER OFF COMPUTER IN 12WAYS.mp4" controls></video>
+            </div>
+      </div>  
+      <div class="link-youtube">
+      <p> You Can Subscribe To Our Youtube Channel <a href="www.youtube.com"> Bibi Tech Compatibility</a>. To Stay updated</p>
+      </div>
+   
+    </section>
+
     <footer>
       <img
         src="./IMAGES/logo.png"
@@ -136,5 +163,8 @@
         Kano State, Nigeria
       </p>
     </footer>
+
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
