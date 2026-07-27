@@ -15,7 +15,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./STYLE.CSS" />
-    
   </head>
   <body>
     <header>
@@ -275,6 +274,45 @@
       </section>
     </main>
 
+    <!-- my Certificates -->
+    <section class="cert ">
+      <div class="wrap">
+        <span class="eyebrow">CERTIFICATION</span>
+        <h1
+          style="
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.05;
+            letter-spacing: -0.01em;
+            max-width: 20ch;
+          "
+        >
+          My CERTIFICATE
+        </h1>
+        <p
+          style="
+            margin-top: 18px;
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 56ch;
+          "
+        >
+          This is to certify me, that i can create a Responsive Websites
+        </p>
+      </div>
+      <div class="cert-link">
+        <p 
+            margin-top: 18px;
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 56ch;>
+          Click This Link:
+          <a
+            href="https://www.freecodecamp.org/certification/fcc5a9fa3bc-8518-42ac-a363-f1939e6bba8b/responsive-web-design"
+            >CERTIFICATE</a> to View.
+        </p>
+      </div>
+    </section>
     <footer>
       <img
         src="./IMAGES/logo.png"
